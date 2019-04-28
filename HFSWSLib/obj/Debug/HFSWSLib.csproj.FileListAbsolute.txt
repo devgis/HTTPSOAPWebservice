@@ -1,0 +1,10 @@
+E:\Work\WS\HFSWS\HFSWSLib\bin\Debug\web.DHCENS.BLL.Dict.Method.Lib.dll
+E:\Work\WS\HFSWS\HFSWSLib\bin\Debug\web.DHCENS.BLL.Dict.Method.Lib.pdb
+E:\Work\WS\HFSWS\HFSWSLib\obj\Debug\ResolveAssemblyReference.cache
+E:\Work\WS\HFSWS\HFSWSLib\obj\Debug\web.DHCENS.BLL.Dict.Method.Lib.dll
+E:\Work\WS\HFSWS\HFSWSLib\obj\Debug\web.DHCENS.BLL.Dict.Method.Lib.pdb
+E:\Work\WSES\HFSWS\HFSWSLib\bin\Debug\HongFengShu.WSLib.dll
+E:\Work\WSES\HFSWS\HFSWSLib\bin\Debug\HongFengShu.WSLib.pdb
+E:\Work\WSES\HFSWS\HFSWSLib\obj\Debug\ResolveAssemblyReference.cache
+E:\Work\WSES\HFSWS\HFSWSLib\obj\Debug\HongFengShu.WSLib.dll
+E:\Work\WSES\HFSWS\HFSWSLib\obj\Debug\HongFengShu.WSLib.pdb

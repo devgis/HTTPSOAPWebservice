@@ -1,0 +1,33 @@
+<MSG>
+       <ROW>
+             <MD_EMP_CODE>01</MD_EMP_CODE>
+             <MD_EMP_NAME>李四</MD_EMP_NAME>
+             <MD_STAMP_NO>stampno</MD_STAMP_NO>
+             <MD_DEPT_CODE>住院部</MD_DEPT_CODE>
+             <MD_COMP_CODE>测试</MD_COMP_CODE>
+             <MD_BIRTHDAY>2014-06-25</MD_BIRTHDAY>
+             <MD_EMP_IDNO>emp_indo</MD_EMP_IDNO>
+             <MD_SEX>男</MD_SEX>
+             <MD_PHONE>15863258546</MD_PHONE>
+             <MD_EMAIL>lish@163.com</MD_EMAIL>
+             <MD_INPUT_CODE>sdf</MD_INPUT_CODE>                                                          
+             <MD_WUBI_CODE>werw</MD_WUBI_CODE>
+             <MD_EMP_TYPE>asdf</MD_EMP_TYPE>
+             <MD_WORK>护士</MD_WORK>
+             <MD_WORK_LEVEL>1</MD_WORK_LEVEL>
+             <MD_TITLE>2</MD_TITLE>
+             <MD_TITLE_HERP>3省道</MD_TITLE_HERP>
+             <MD_EDUCATION>放到</MD_EDUCATION>
+             <MD_IS_TALENT>松鼠</MD_IS_TALENT>
+             <MD_TALENT_TYPE>的</MD_TALENT_TYPE>
+             <MD_CREATE_DATE>2017-02-28</MD_CREATE_DATE>
+             <MD_IS_STOP>1</MD_IS_STOP >
+             <MD_EMP_EXT1>extt1</MD_EMP_EXT1>
+             <MD_EMP_EXT2>ext2</MD_EMP_EXT2>
+             <MD_EMP_EXT3>ext3</MD_EMP_EXT3>
+             <MD_OPER_NAME>we</MD_OPER_NAME>
+<MD_OPER_CODE>opcode</MD_OPER_CODE>
+<MD_OPER_TIME>2017-03-25</MD_OPER_TIME>
+             <DOEVENT>D</DOEVENT>
+        </ROW>
+</MSG>

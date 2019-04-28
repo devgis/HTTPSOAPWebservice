@@ -1,0 +1,212 @@
+时间:2017-06-14 10:09:37----------------------------------------------------------------------
+ORA-01407: 无法更新 ("HFSPAS"."T_BASE_MEDICODE"."PACKUNIT") 为 NULL
+
+时间:2017-06-14 10:15:03----------------------------------------------------------------------
+[ERRORMESSAGE]:ORA-01407: 无法更新 ("HFSPAS"."T_BASE_MEDICODE"."PACKUNIT") 为 NULL
+
+[INNEREXCEPTION]:
+[SOURCE]:System.Data.OracleClient
+[STACKTRACE]:   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at web.DHCENS.BLL.Dict.Method.Lib.COMMON.OracleHelper.ExecSqlByTran(List`1 listsqls, List`1 listparameters) in E:\Work\WS\HFSWS\HFSWSLib\COMMON\OracleHelper.cs:line 158
+
+时间:2017-06-14 10:36:25----------------------------------------------------------------------
+[ERRORMESSAGE]:Failed to convert parameter value from a String to a Decimal.
+[INNEREXCEPTION]:System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value, IFormatProvider provider)
+   at System.String.System.IConvertible.ToDecimal(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at System.Data.OracleClient.OracleParameter.CoerceValue(Object value, MetaType destinationType)
+[SOURCE]:System.Data.OracleClient
+[STACKTRACE]:   at System.Data.OracleClient.OracleParameter.CoerceValue(Object value, MetaType destinationType)
+   at System.Data.OracleClient.OracleParameter.SetCoercedValueInternal(Object value, MetaType metaType)
+   at System.Data.OracleClient.OracleParameterBinding.PrepareForBind(OracleConnection connection, Int32& offset)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at web.DHCENS.BLL.Dict.Method.Lib.COMMON.OracleHelper.ExecSqlByTran(List`1 listsqls, List`1 listparameters) in E:\Work\WS\HFSWS\HFSWSLib\COMMON\OracleHelper.cs:line 158
+
+时间:2017-06-14 11:12:02----------------------------------------------------------------------
+[ERRORMESSAGE]:Failed to convert parameter value from a String to a Decimal.
+[INNEREXCEPTION]:System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value, IFormatProvider provider)
+   at System.String.System.IConvertible.ToDecimal(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at System.Data.OracleClient.OracleParameter.CoerceValue(Object value, MetaType destinationType)
+[SOURCE]:System.Data.OracleClient
+[STACKTRACE]:   at System.Data.OracleClient.OracleParameter.CoerceValue(Object value, MetaType destinationType)
+   at System.Data.OracleClient.OracleParameter.SetCoercedValueInternal(Object value, MetaType metaType)
+   at System.Data.OracleClient.OracleParameterBinding.PrepareForBind(OracleConnection connection, Int32& offset)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at web.DHCENS.BLL.Dict.Method.Lib.COMMON.OracleHelper.ExecSqlByTran(List`1 listsqls, List`1 listparameters) in E:\Work\WS\HFSWS\HFSWSLib\COMMON\OracleHelper.cs:line 158
+
+时间:2017-06-14 11:13:33----------------------------------------------------------------------
+[ERRORMESSAGE]:ORA-00904: "IS_LOCKEDCA_KEY": 标识符无效
+
+[INNEREXCEPTION]:
+[SOURCE]:System.Data.OracleClient
+[STACKTRACE]:   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at web.DHCENS.BLL.Dict.Method.Lib.COMMON.OracleHelper.ExecSqlByTran(List`1 listsqls, List`1 listparameters) in E:\Work\WS\HFSWS\HFSWSLib\COMMON\OracleHelper.cs:line 158
+
+时间:2017-06-14 11:16:09----------------------------------------------------------------------
+[ERRORMESSAGE]:ORA-01400: 无法将 NULL 插入 ("HFSPAS"."UP_USERS"."PASSWORD")
+
+[INNEREXCEPTION]:
+[SOURCE]:System.Data.OracleClient
+[STACKTRACE]:   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at web.DHCENS.BLL.Dict.Method.Lib.COMMON.OracleHelper.ExecSqlByTran(List`1 listsqls, List`1 listparameters) in E:\Work\WS\HFSWS\HFSWSLib\COMMON\OracleHelper.cs:line 158
+
+时间:2017-06-14 11:16:49----------------------------------------------------------------------
+[ERRORMESSAGE]:ORA-01400: 无法将 NULL 插入 ("HFSPAS"."UP_USERS"."PUBLIC_PASSWORD")
+
+[INNEREXCEPTION]:
+[SOURCE]:System.Data.OracleClient
+[STACKTRACE]:   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at web.DHCENS.BLL.Dict.Method.Lib.COMMON.OracleHelper.ExecSqlByTran(List`1 listsqls, List`1 listparameters) in E:\Work\WS\HFSWS\HFSWSLib\COMMON\OracleHelper.cs:line 158
+
+时间:2017-06-14 11:17:00----------------------------------------------------------------------
+[ERRORMESSAGE]:ORA-01400: 无法将 NULL 插入 ("HFSPAS"."UP_USERS"."JOB_CATEGORY")
+
+[INNEREXCEPTION]:
+[SOURCE]:System.Data.OracleClient
+[STACKTRACE]:   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at web.DHCENS.BLL.Dict.Method.Lib.COMMON.OracleHelper.ExecSqlByTran(List`1 listsqls, List`1 listparameters) in E:\Work\WS\HFSWS\HFSWSLib\COMMON\OracleHelper.cs:line 158
+
+时间:2017-06-14 11:18:25----------------------------------------------------------------------
+[ERRORMESSAGE]:ORA-12899: 列 "HFSPAS"."UP_USERS"."JOB_CATEGORY" 的值太大 (实际值: 10, 最大值: 8)
+
+[INNEREXCEPTION]:
+[SOURCE]:System.Data.OracleClient
+[STACKTRACE]:   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at web.DHCENS.BLL.Dict.Method.Lib.COMMON.OracleHelper.ExecSqlByTran(List`1 listsqls, List`1 listparameters) in E:\Work\WS\HFSWS\HFSWSLib\COMMON\OracleHelper.cs:line 158
+
+时间:2017-06-14 11:19:14----------------------------------------------------------------------
+[ERRORMESSAGE]:ORA-12899: 列 "HFSPAS"."UP_USERS"."JOB_CATEGORY" 的值太大 (实际值: 10, 最大值: 8)
+
+[INNEREXCEPTION]:
+[SOURCE]:System.Data.OracleClient
+[STACKTRACE]:   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at web.DHCENS.BLL.Dict.Method.Lib.COMMON.OracleHelper.ExecSqlByTran(List`1 listsqls, List`1 listparameters) in E:\Work\WS\HFSWS\HFSWSLib\COMMON\OracleHelper.cs:line 158
+
+时间:2017-06-14 11:20:43----------------------------------------------------------------------
+[ERRORMESSAGE]:ORA-00933: SQL 命令未正确结束
+
+[INNEREXCEPTION]:
+[SOURCE]:System.Data.OracleClient
+[STACKTRACE]:   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at web.DHCENS.BLL.Dict.Method.Lib.COMMON.OracleHelper.ExecSqlByTran(List`1 listsqls, List`1 listparameters) in E:\Work\WS\HFSWS\HFSWSLib\COMMON\OracleHelper.cs:line 158
+
+时间:2017-06-14 11:21:06----------------------------------------------------------------------
+[ERRORMESSAGE]:ORA-00933: SQL 命令未正确结束
+
+[INNEREXCEPTION]:
+[SOURCE]:System.Data.OracleClient
+[STACKTRACE]:   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at web.DHCENS.BLL.Dict.Method.Lib.COMMON.OracleHelper.ExecSqlByTran(List`1 listsqls, List`1 listparameters) in E:\Work\WS\HFSWS\HFSWSLib\COMMON\OracleHelper.cs:line 158
+
+时间:2017-06-14 11:21:30----------------------------------------------------------------------
+[ERRORMESSAGE]:ORA-00904: "SYSDATEA": 标识符无效
+
+[INNEREXCEPTION]:
+[SOURCE]:System.Data.OracleClient
+[STACKTRACE]:   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at web.DHCENS.BLL.Dict.Method.Lib.COMMON.OracleHelper.ExecSqlByTran(List`1 listsqls, List`1 listparameters) in E:\Work\WS\HFSWS\HFSWSLib\COMMON\OracleHelper.cs:line 158
+
+时间:2017-06-14 14:19:06----------------------------------------------------------------------
+[ERRORMESSAGE]:Failed to convert parameter value from a OracleParameter to a String.
+[INNEREXCEPTION]:System.InvalidCastException: Object must implement IConvertible.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at System.Data.OracleClient.OracleParameter.CoerceValue(Object value, MetaType destinationType)
+[SOURCE]:System.Data.OracleClient
+[STACKTRACE]:   at System.Data.OracleClient.OracleParameter.CoerceValue(Object value, MetaType destinationType)
+   at System.Data.OracleClient.OracleParameter.SetCoercedValueInternal(Object value, MetaType metaType)
+   at System.Data.OracleClient.OracleParameterBinding.PrepareForBind(OracleConnection connection, Int32& offset)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at web.DHCENS.BLL.Dict.Method.Lib.COMMON.OracleHelper.ExecSqlByTran(List`1 listsqls, List`1 listparameters) in E:\Work\WS\HFSWS\HFSWSLib\COMMON\OracleHelper.cs:line 158
+
+时间:2017-06-14 14:19:55----------------------------------------------------------------------
+[ERRORMESSAGE]:Failed to convert parameter value from a String to a DateTime.
+[INNEREXCEPTION]:System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value, IFormatProvider provider)
+   at System.String.System.IConvertible.ToDateTime(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at System.Data.OracleClient.OracleParameter.CoerceValue(Object value, MetaType destinationType)
+[SOURCE]:System.Data.OracleClient
+[STACKTRACE]:   at System.Data.OracleClient.OracleParameter.CoerceValue(Object value, MetaType destinationType)
+   at System.Data.OracleClient.OracleParameter.SetCoercedValueInternal(Object value, MetaType metaType)
+   at System.Data.OracleClient.OracleParameterBinding.PrepareForBind(OracleConnection connection, Int32& offset)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at web.DHCENS.BLL.Dict.Method.Lib.COMMON.OracleHelper.ExecSqlByTran(List`1 listsqls, List`1 listparameters) in E:\Work\WS\HFSWS\HFSWSLib\COMMON\OracleHelper.cs:line 158
+
+时间:2017-06-14 14:23:08----------------------------------------------------------------------
+[ERRORMESSAGE]:ORA-01008: 并非所有变量都已绑定
+
+[INNEREXCEPTION]:
+[SOURCE]:System.Data.OracleClient
+[STACKTRACE]:   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at web.DHCENS.BLL.Dict.Method.Lib.COMMON.OracleHelper.GetDataTable(String sql, OracleParameter[] parameters) in E:\Work\WS\HFSWS\HFSWSLib\COMMON\OracleHelper.cs:line 53
+
+时间:2017-06-14 14:29:25----------------------------------------------------------------------
+[ERRORMESSAGE]:ORA-01008: 并非所有变量都已绑定
+
+[INNEREXCEPTION]:
+[SOURCE]:System.Data.OracleClient
+[STACKTRACE]:   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at web.DHCENS.BLL.Dict.Method.Lib.COMMON.OracleHelper.GetDataTable(String sql, OracleParameter[] parameters) in E:\Work\WS\HFSWS\HFSWSLib\COMMON\OracleHelper.cs:line 53
+

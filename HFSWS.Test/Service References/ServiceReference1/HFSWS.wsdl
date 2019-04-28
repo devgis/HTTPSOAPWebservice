@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HisTransData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="HisTransDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HisTransDataResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deal_dept">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deal_deptResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="deal_deptResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deal_employee">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deal_employeeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="deal_employeeResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deal_drug">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deal_drugResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="deal_drugResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deal_undrug">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deal_undrugResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="deal_undrugResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deal_material">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deal_materialResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="deal_materialResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deal_provider">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deal_providerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="deal_providerResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deal_manufactorer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deal_manufactorerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="deal_manufactorerResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HisTransDataSoapIn">
+    <wsdl:part name="parameters" element="tns:HisTransData" />
+  </wsdl:message>
+  <wsdl:message name="HisTransDataSoapOut">
+    <wsdl:part name="parameters" element="tns:HisTransDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="deal_deptSoapIn">
+    <wsdl:part name="parameters" element="tns:deal_dept" />
+  </wsdl:message>
+  <wsdl:message name="deal_deptSoapOut">
+    <wsdl:part name="parameters" element="tns:deal_deptResponse" />
+  </wsdl:message>
+  <wsdl:message name="deal_employeeSoapIn">
+    <wsdl:part name="parameters" element="tns:deal_employee" />
+  </wsdl:message>
+  <wsdl:message name="deal_employeeSoapOut">
+    <wsdl:part name="parameters" element="tns:deal_employeeResponse" />
+  </wsdl:message>
+  <wsdl:message name="deal_drugSoapIn">
+    <wsdl:part name="parameters" element="tns:deal_drug" />
+  </wsdl:message>
+  <wsdl:message name="deal_drugSoapOut">
+    <wsdl:part name="parameters" element="tns:deal_drugResponse" />
+  </wsdl:message>
+  <wsdl:message name="deal_undrugSoapIn">
+    <wsdl:part name="parameters" element="tns:deal_undrug" />
+  </wsdl:message>
+  <wsdl:message name="deal_undrugSoapOut">
+    <wsdl:part name="parameters" element="tns:deal_undrugResponse" />
+  </wsdl:message>
+  <wsdl:message name="deal_materialSoapIn">
+    <wsdl:part name="parameters" element="tns:deal_material" />
+  </wsdl:message>
+  <wsdl:message name="deal_materialSoapOut">
+    <wsdl:part name="parameters" element="tns:deal_materialResponse" />
+  </wsdl:message>
+  <wsdl:message name="deal_providerSoapIn">
+    <wsdl:part name="parameters" element="tns:deal_provider" />
+  </wsdl:message>
+  <wsdl:message name="deal_providerSoapOut">
+    <wsdl:part name="parameters" element="tns:deal_providerResponse" />
+  </wsdl:message>
+  <wsdl:message name="deal_manufactorerSoapIn">
+    <wsdl:part name="parameters" element="tns:deal_manufactorer" />
+  </wsdl:message>
+  <wsdl:message name="deal_manufactorerSoapOut">
+    <wsdl:part name="parameters" element="tns:deal_manufactorerResponse" />
+  </wsdl:message>
+  <wsdl:portType name="HFSWSSoap">
+    <wsdl:operation name="HisTransData">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">同步处方信息</wsdl:documentation>
+      <wsdl:input message="tns:HisTransDataSoapIn" />
+      <wsdl:output message="tns:HisTransDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="deal_dept">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">同步科室信息</wsdl:documentation>
+      <wsdl:input message="tns:deal_deptSoapIn" />
+      <wsdl:output message="tns:deal_deptSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="deal_employee">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">医院人员(EMPLOYEE)</wsdl:documentation>
+      <wsdl:input message="tns:deal_employeeSoapIn" />
+      <wsdl:output message="tns:deal_employeeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="deal_drug">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">药品信息（DRUG）</wsdl:documentation>
+      <wsdl:input message="tns:deal_drugSoapIn" />
+      <wsdl:output message="tns:deal_drugSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="deal_undrug">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">其它非药品收费项目（UNDRUG）</wsdl:documentation>
+      <wsdl:input message="tns:deal_undrugSoapIn" />
+      <wsdl:output message="tns:deal_undrugSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="deal_material">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">物资材料信息（MATERIAL）</wsdl:documentation>
+      <wsdl:input message="tns:deal_materialSoapIn" />
+      <wsdl:output message="tns:deal_materialSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="deal_provider">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">供应商（PROVIDER）</wsdl:documentation>
+      <wsdl:input message="tns:deal_providerSoapIn" />
+      <wsdl:output message="tns:deal_providerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="deal_manufactorer">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">生产厂家（manufactorer）</wsdl:documentation>
+      <wsdl:input message="tns:deal_manufactorerSoapIn" />
+      <wsdl:output message="tns:deal_manufactorerSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="HFSWSSoap" type="tns:HFSWSSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HisTransData">
+      <soap:operation soapAction="http://tempuri.org/HisTransData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deal_dept">
+      <soap:operation soapAction="http://tempuri.org/deal_dept" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deal_employee">
+      <soap:operation soapAction="http://tempuri.org/deal_employee" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deal_drug">
+      <soap:operation soapAction="http://tempuri.org/deal_drug" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deal_undrug">
+      <soap:operation soapAction="http://tempuri.org/deal_undrug" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deal_material">
+      <soap:operation soapAction="http://tempuri.org/deal_material" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deal_provider">
+      <soap:operation soapAction="http://tempuri.org/deal_provider" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deal_manufactorer">
+      <soap:operation soapAction="http://tempuri.org/deal_manufactorer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="HFSWSSoap12" type="tns:HFSWSSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HisTransData">
+      <soap12:operation soapAction="http://tempuri.org/HisTransData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deal_dept">
+      <soap12:operation soapAction="http://tempuri.org/deal_dept" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deal_employee">
+      <soap12:operation soapAction="http://tempuri.org/deal_employee" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deal_drug">
+      <soap12:operation soapAction="http://tempuri.org/deal_drug" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deal_undrug">
+      <soap12:operation soapAction="http://tempuri.org/deal_undrug" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deal_material">
+      <soap12:operation soapAction="http://tempuri.org/deal_material" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deal_provider">
+      <soap12:operation soapAction="http://tempuri.org/deal_provider" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deal_manufactorer">
+      <soap12:operation soapAction="http://tempuri.org/deal_manufactorer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="HFSWS">
+    <wsdl:port name="HFSWSSoap" binding="tns:HFSWSSoap">
+      <soap:address location="http://localhost:1767/HFSWS.asmx" />
+    </wsdl:port>
+    <wsdl:port name="HFSWSSoap12" binding="tns:HFSWSSoap12">
+      <soap12:address location="http://localhost:1767/HFSWS.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

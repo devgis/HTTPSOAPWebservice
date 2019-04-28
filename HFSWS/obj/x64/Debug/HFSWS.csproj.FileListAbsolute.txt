@@ -1,0 +1,14 @@
+E:\Work\WS\HFSWS\HFSWS\bin\x64\Debug\web.DHCENS.BLL.Dict.Method.dll
+E:\Work\WS\HFSWS\HFSWS\bin\x64\Debug\web.DHCENS.BLL.Dict.Method.pdb
+E:\Work\WS\HFSWS\HFSWS\bin\x64\Debug\web.DHCENS.BLL.Dict.Method.Lib.dll
+E:\Work\WS\HFSWS\HFSWS\bin\x64\Debug\web.DHCENS.BLL.Dict.Method.Lib.pdb
+E:\Work\WS\HFSWS\HFSWS\obj\x64\Debug\ResolveAssemblyReference.cache
+E:\Work\WS\HFSWS\HFSWS\obj\x64\Debug\web.DHCENS.BLL.Dict.Method.dll
+E:\Work\WS\HFSWS\HFSWS\obj\x64\Debug\web.DHCENS.BLL.Dict.Method.pdb
+E:\Work\WSES\HFSWS\HFSWS\bin\x64\Debug\web.DHCENS.BLL.Dict.Method.dll
+E:\Work\WSES\HFSWS\HFSWS\bin\x64\Debug\web.DHCENS.BLL.Dict.Method.pdb
+E:\Work\WSES\HFSWS\HFSWS\bin\x64\Debug\HongFengShu.WSLib.dll
+E:\Work\WSES\HFSWS\HFSWS\bin\x64\Debug\HongFengShu.WSLib.pdb
+E:\Work\WSES\HFSWS\HFSWS\obj\x64\Debug\ResolveAssemblyReference.cache
+E:\Work\WSES\HFSWS\HFSWS\obj\x64\Debug\web.DHCENS.BLL.Dict.Method.dll
+E:\Work\WSES\HFSWS\HFSWS\obj\x64\Debug\web.DHCENS.BLL.Dict.Method.pdb
